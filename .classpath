@@ -7,6 +7,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/shukari/Documents/Arma3Development/ArmA3Sync/Export_A3Sync/lib/ArmA3Sync_1-7-107.jar" sourcepath="/ArmA3Sync-1-7-107"/>
+	<classpathentry kind="lib" path="lib/ArmA3Sync_1-7-107.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -25,9 +25,6 @@ import fr.soe.a3s.domain.repository.SyncTreeDirectory;
 
 public class ExportA3Sync {
 	
-	/**
-	 * java -jar Export_A3Sync.jar http://repo.tacticalbacon.de/.a3s/sync
-	 */
 	public static void main(String[] args) throws IOException {
 		File a3sFile = null;
 		
@@ -106,7 +103,7 @@ public class ExportA3Sync {
 	}
 	
 	private static void help() {
-		System.out.println(String.format("java -jar Export_A3Sync.jar [options] <URL>\r\n"
+		System.out.println(String.format("java -jar ArmA3SyncExporter.jar [options] <URL>\r\n"
 				+ "Options:\r\n"
 				+ "\t-h / -? / -help: shows help\r\n"
 				+ "\t-console: output option as console output\r\n"
@@ -121,12 +118,12 @@ public class ExportA3Sync {
 		try (InputStream in = new URL(url).openStream()) {
 			Files.copy(in, pathName, StandardCopyOption.REPLACE_EXISTING);
 		} catch (final Exception e) {
-			exit("Error on download");
+			exit("Error on download: %s", url);
 		}
 		
 		final File syncFile = pathName.toFile();
 		if (syncFile == null || !syncFile.exists())
-			exit("Download file is not there");
+			exit("Download file is not there: %s", url);
 		
 		return syncFile;
 	}

@@ -60,6 +60,5 @@ local.properties
 #.project
 
 # self created
-/Export_A3Sync.jar
+/ArmA3SyncExporter.jar
 *.csv
-/Export_A3Sync.jar

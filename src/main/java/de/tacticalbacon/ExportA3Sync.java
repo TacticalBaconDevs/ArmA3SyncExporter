@@ -29,7 +29,7 @@ public class ExportA3Sync {
 		File a3sFile = null;
 		
 		try {
-			System.out.println("v1.0.1 (09.10.22)");
+			System.out.println("v1.0.2 (09.10.22)");
 			
 			// parse arguments
 			final Map<String, String> arguments = parseArguments(args);

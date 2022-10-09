@@ -16,7 +16,7 @@ java -jar ArmA3SyncExporter.jar -console http://repo.tacticalbacon.de/.a3s/event
 
 ### Output:
 ```
-v1.0.1 (09.10.22)
+v1.0.2 (09.10.22)
 -----------------START-----------------
 [TB] MinimalModset#@TBMod|@Zeus Enhanced|@LAMBS_Danger|@diwako_dui|@CBA_A3|@ace
 [TB] TestServer#@TBMod|@CBA_A3|@KAT_AdvancedMedical|@ace|@BuildingMods

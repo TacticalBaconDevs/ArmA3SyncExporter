@@ -22,10 +22,10 @@ v1.0.1 (09.10.22)
 -----------------END-----------------  
 
 ## Current help
-java -jar Export_A3Sync.jar [options] <URL>
-Options:
-	-h / -? / -help: shows help
-	-console: output option as console output
-URL:
-	http://***/sync => ADDON|FILE1|FILE2|...
-	http://***/events => EVENT|ADDON1|ADDON2|...
+java -jar Export_A3Sync.jar [options] <URL>  
+Options:  
+	-h / -? / -help: shows help  
+	-console: output option as console output  
+URL:  
+	http://***/sync => ADDON|FILE1|FILE2|...  
+	http://***/events => EVENT|ADDON1|ADDON2|...  

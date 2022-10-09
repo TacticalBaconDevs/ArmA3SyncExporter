@@ -12,7 +12,9 @@ This project extracts/exports data from an Arma3Sync repo.
 
 ## Example call and output
 ### Input:
+```
 java -jar ArmA3SyncExporter.jar -console http://repo.tacticalbacon.de/.a3s/events
+```
 
 ### Output:
 ```

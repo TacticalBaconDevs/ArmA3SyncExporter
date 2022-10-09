@@ -1,4 +1,4 @@
-# Export_A3Sync
+# ArmA3SyncExporter
 
 ## Requirements
 - Arma3Sync
@@ -12,7 +12,7 @@ This project extracts/exports data from an Arma3Sync repo.
 
 ## Example call and output
 ### Input:
-java -jar Export_A3Sync.jar -console http://repo.tacticalbacon.de/.a3s/events
+java -jar ArmA3SyncExporter.jar -console http://repo.tacticalbacon.de/.a3s/events
 
 ### Output:
 ```
@@ -25,7 +25,7 @@ v1.0.1 (09.10.22)
 
 ## Current help
 ```
-java -jar Export_A3Sync.jar [options] <URL>
+java -jar ArmA3SyncExporter.jar [options] <URL>
 Options:
 	-h / -? / -help: shows help
 	-console: output option as console output
